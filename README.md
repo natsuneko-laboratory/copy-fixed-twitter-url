@@ -1,14 +1,19 @@
-# copy-fixed-twitter-url
+# Copy Fixed Twitter URL
 
-> a chrome extension tools built with Vite + Vanilla-ts, and Manifest v3
+> Add-on for adding new items to Twitter share buttons. This extension adds a "Copy link as..." button to the share button in Twitter's tweet (post) details. As a result, when you link to Discord, for example, the tweet will not be expanded, and you will not have to manually modify the link to fxtwitter.com, etc.
 
-## Installing
+Install for Firefox: https://addons.mozilla.org/ja/firefox/addon/copy-fixed-twitter-url/  
+Install for Chromium: https://chromewebstore.google.com/detail/nbjdfangdmhahchhbjihbjcgpkanifik
+
+## Development
+
+### Installing
 
 1. Check if your `Node.js` version is >= **14**.
 2. Change or configurate the name of your extension on `src/manifest`.
 3. Run `npm install` to install the dependencies.
 
-## Developing
+### Developing
 
 run the command
 
@@ -18,18 +23,18 @@ $ cd copy-fixed-twitter-url
 $ npm run dev
 ```
 
-### Chrome Extension Developer Mode
+#### Chrome Extension Developer Mode
 
 1. set your Chrome browser 'Developer mode' up
 2. click 'Load unpacked', and select `copy-fixed-twitter-url/build` folder
 
-### Nomal FrontEnd Developer Mode
+#### Nomal FrontEnd Developer Mode
 
 1. access `http://0.0.0.0:3000/`
 2. when debugging popup page, open `http://0.0.0.0:3000//popup.html`
 3. when debugging options page, open `http://0.0.0.0:3000//options.html`
 
-## Packing
+### Packing
 
 After the development of your extension run the command
 
